@@ -1,0 +1,3 @@
+Hello how are you
+This is a simple sample corpus
+Feel free to add your own lines here
