@@ -62,3 +62,17 @@ Contributions, suggestions, and improvements are welcome! Please open an issue o
 ## Disclaimer
 
 This is a preview version, so some responses may not always be perfect. Feedback is appreciated!
+
+## Development Setup
+
+1. Copy `.env.example` to `.env` and adjust any variables you need.
+2. Run `./setup.sh` to create a Python virtual environment and install dependencies.
+3. Launch the chatbot with `python main.py`.
+
+## Training Data
+
+SmallChat automatically loads extra training sentences from `data/data.txt`. You can add any text to this file to influence the word prediction model.
+
+## English Rules
+
+Generated text is filtered using simple heuristics defined in `smallchat/english_rules.py` to remove repeated or invalid words.
